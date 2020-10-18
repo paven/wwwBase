@@ -1,22 +1,38 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+kramdown:
+  input: GFM
+
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
-baseurl:             ''
+title:               wwwBase
+tagline:             'Github page and blog starter'
+description:         'What I(and you) need to start a new github page.'
+url:                 'https://mumma.nu/wwwBase/'
+baseurl:             '/wwwBase/'
 paginate:            5
 permalink:           pretty
+paginate_path:       "blog/page:num"
+banner:              banner.jpg
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
-
-# Gems
-plugins:
-  - jekyll-paginate
+  name:              Patrik Gustafsson
+  url:               https://twitter.com/paven
+  email:             wwwBase@mumma.nu
 
 # Custom vars
-version:             1.1.0
+version:          0.0.2
 google_analytics_id: #UA-XXXX-Y
+
+github:
+  repo:           https://github.com/paven/wwwBase
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+first_page:
+  url: index
+
