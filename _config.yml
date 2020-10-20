@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 kramdown:
@@ -8,13 +8,13 @@ kramdown:
 # Setup
 title:               wwwBase
 tagline:             'Github page and blog starter'
-description:         'What i(and you= need to start a new github page.'
+description:         'What I(and you) need to start a new github page.'
 url:                 https://mumma.nu/wwwBase
 baseurl:             ''
 paginate:            5
 permalink:           pretty
-paginate_path:    "blog/page:num"
-banner:           banner.jpg
+paginate_path:       "blog/page:num"
+banner:              banner.jpg
 
 # About/contact
 author:
@@ -23,16 +23,17 @@ author:
   email:             wwwBase@mumma.nu
 
 # Custom vars
-version:          1.1.0
+version:          0.0.2
 google_analytics_id: #UA-XXXX-Y
 
 github:
   repo:           https://github.com/paven/wwwBase
 
-gems:
-- jekyll-mentions
-- jekyll-sitemap
+plugins: 
+  - jekyll-paginate
+  - jekyll-mentions
+  - jekyll-sitemap
 
 first_page:
-  url: /index/
+  url: index
 

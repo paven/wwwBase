@@ -1,12 +1,10 @@
-<!---
-
 ---
 layout: page
 title: Readme
 next_page: /
 ---
- Remove above to not include readme as page in webpage.
---->
+<!-- Remove above to not include readme as page in webpage. -->
+
 # wwwBase
 
 wwwBase is set up for [Lanyon](https://github.com/poole/lanyon) an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
