@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+next_page: apage
 ---
 
 <p class="message">
