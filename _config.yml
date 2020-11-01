@@ -9,7 +9,7 @@ kramdown:
 title:               wwwBase
 tagline:             'Github page and blog starter'
 description:         'What I(and you) need to start a new github page.'
-url:                 'https://mumma.nu/wwwBase/'
+url:                 'https://mumma.nu/'
 baseurl:             '/wwwBase/'
 paginate:            5
 permalink:           pretty
