@@ -25,7 +25,6 @@ author:
 
 # Custom vars
 version:          0.0.2
-google_analytics_id: #UA-XXXX-Y
 
 github:
   repo:           https://github.com/paven/wwwBase
@@ -36,4 +35,3 @@ plugins:
 
 first_page:
   url: index
-
